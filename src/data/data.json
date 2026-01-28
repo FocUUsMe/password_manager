@@ -1,0 +1,102 @@
+{
+    "title": "Cards",
+    "quantity": "12",
+    "cards": [
+        {
+            "id": 1,
+            "title": "Adobe",
+            "icon": "/card_icons/adobe_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 2,
+            "title": "Chat GPT",
+            "icon": "/card_icons/chatgpt_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 3,
+            "title": "GitHub",
+            "icon": "/card_icons/github_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 4,
+            "title": "Google Drive",
+            "icon": "/card_icons/googledrive_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 5,
+            "title": "Instagram",
+            "icon": "/card_icons/instagram_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 6,
+            "title": "Linked In",
+            "icon": "/card_icons/linkedin_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 7,
+            "title": "NVidia",
+            "icon": "/card_icons/nvidia_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 8,
+            "title": "Outlook",
+            "icon": "/card_icons/outlook_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 9,
+            "title": "PayPal",
+            "icon": "/card_icons/paypal_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 10,
+            "title": "Play Station",
+            "icon": "/card_icons/playstation_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 11,
+            "title": "Steam",
+            "icon": "/card_icons/steam_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        },
+        {
+            "id": 12,
+            "title": "X",
+            "icon": "/card_icons/twitter_icon.png",
+            "login": "",
+            "password": "",
+            "isLogged": "false"
+        }
+    ]
+}

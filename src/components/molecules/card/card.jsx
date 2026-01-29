@@ -1,6 +1,12 @@
     import styles from '@/components/molecules/card/styles.module.css';
     import Image from 'next/image';
 
+    import { Chivo_Mono } from 'next/font/google';
+
+    const font = Chivo_Mono({
+        subsets: ['latin']
+    });
+
 
     const Card = (props) => {
         const { img_src, title, login, password } = props;
@@ -8,22 +14,27 @@
         
         return (
             <div className={styles.card}>
-                <Image 
-                 width={32}
-                 height={32}
-                 src="/globe.svg"
-                 alt=''
-                />
-                <span className={styles.service_name}>
-                    {title}
-                </span>
+                <div className={styles.group_1}>
+                    <Image 
+                    width={48}
+                    height={48}
+                    src="/globe.svg"
+                    alt=''
+                    />
+                    <span className={styles.service_name}>
+                        {title}
+                        GitHub
+                    </span>
+                </div>
 
-                <input type='text' className={styles.login}>
-                    {login}
-                </input>
-                <input type='password' className={styles.password}>
-                    {password}
-                </input>
+                <div className={styles.group_2}>
+                    <input type='text' className={`${styles.login} ${font.className}`}>
+                        {login}
+                    </input>
+                    <input type='password' className={styles.password}>
+                        {password}
+                    </input>
+                </div>
             </div>
         )
     }

@@ -25,16 +25,36 @@
   justify-content: flex-start;
   align-items: center;
   gap: 100px;
+  background-color: rgb(252, 252, 176);
+  color: black;
+  padding: 0px 100px;
 }
 
 .main {
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   width: 100%;
   max-width: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   background-color: white;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card_box{
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  padding: 50px;
+  top: 0;
+  border: 1px solid red;
 }
 
 .intro {

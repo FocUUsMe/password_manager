@@ -29,7 +29,20 @@
           </form>
         </header>
         <main className={styles.main}>
-          
+          <div className={styles.card_box}>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+          </div>
         </main>
       </div>
     );

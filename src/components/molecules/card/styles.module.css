@@ -1,0 +1,13 @@
+    .card{
+        width: 250px;
+        height: 250px;
+        border: 1px solid black;
+        border-radius: 15px;
+        transition: all .4s ease;
+        background-color: white;
+        cursor: pointer;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+    }

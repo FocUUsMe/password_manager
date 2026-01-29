@@ -7,23 +7,23 @@
         const { children } = props;
         
         return (
-            <div>
+            <div className={styles.card}>
                 <Image 
                  width={32}
                  height={32}
-                 src={img_src}
+                 src="/globe.svg"
                  alt=''
                 />
                 <span className={styles.service_name}>
                     {title}
                 </span>
 
-                <span className={styles.login}>
+                <input type='text' className={styles.login}>
                     {login}
-                </span>
-                <span className={styles.password}>
+                </input>
+                <input type='password' className={styles.password}>
                     {password}
-                </span>
+                </input>
             </div>
         )
     }

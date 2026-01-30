@@ -1,0 +1,8 @@
+    .nav_bar{
+        width: 30%;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 20px;
+    }

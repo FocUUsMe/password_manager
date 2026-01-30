@@ -17,44 +17,16 @@
   font-family: var(--font-geist-sans);
   background-color: var(--background);
 }
-
-.header{
-  width: 100%;
-  min-height: 100px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 100px;
-  background-color: rgb(252, 252, 176);
-  color: black;
-  padding: 0px 100px;
-}
-
 .main {
   display: flex;
-  min-height: calc(100vh - 100px);
+  min-height: 100svh;
   width: 100%;
   max-width: 100%;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: black;
   flex-wrap: wrap;
   position: relative;
-}
-
-.card_box{
-  width: 86%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-  flex-wrap: wrap;
-  overflow-y: scroll;
-  padding: 50px;
-  top: 0;
-  border: 1px solid red;
 }
 
 .intro {
@@ -73,42 +45,6 @@
   letter-spacing: -2.4px;
   text-wrap: balance;
   color: var(--text-primary);
-}
-
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
-}
-
-.intro a {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.ctas {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
-}
-
-.ctas a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
-  font-weight: 500;
 }
 
 a.primary {
@@ -138,22 +74,9 @@ a.secondary {
   .main {
     padding: 48px 24px;
   }
-
-  .intro {
-    gap: 16px;
-  }
-
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
 
   .page {
     --background: #000;

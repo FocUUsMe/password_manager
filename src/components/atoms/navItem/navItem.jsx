@@ -8,10 +8,10 @@
     });
     
     const NavItem = ( props ) => {
-        const {title, img_src} = props;
+        const {fn, title, img_src} = props;
         
         return (
-            <div className={`${styles.nav_item} ${font.className}`}>
+            <div onClick={fn} className={`${styles.nav_item} ${font.className}`}>
                 <Image 
                     src={img_src}
                     alt='item_icon'

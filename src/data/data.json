@@ -8,7 +8,8 @@
             "icon": "/card_icons/adobe_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "icon": "/card_icons/gpt_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 3,
@@ -24,7 +26,8 @@
             "icon": "/card_icons/github_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 4,
@@ -32,7 +35,8 @@
             "icon": "/card_icons/google_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 5,
@@ -40,7 +44,8 @@
             "icon": "/card_icons/inst_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 6,
@@ -48,7 +53,8 @@
             "icon": "/card_icons/linkedin_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 7,
@@ -56,7 +62,8 @@
             "icon": "/card_icons/nvidia_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 8,
@@ -64,7 +71,8 @@
             "icon": "/card_icons/outlook_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 9,
@@ -72,7 +80,8 @@
             "icon": "/card_icons/paypal_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 10,
@@ -80,7 +89,8 @@
             "icon": "/card_icons/playstation_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 11,
@@ -88,7 +98,8 @@
             "icon": "/card_icons/steam_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         },
         {
             "id": 12,
@@ -96,7 +107,8 @@
             "icon": "/card_icons/twitter_icon.png",
             "login": "",
             "password": "",
-            "isLogged": "false"
+            "isLogged": "false",
+            "isSelected": "false"
         }
     ]
 }

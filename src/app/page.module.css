@@ -33,6 +33,10 @@
   background-color: #303030;
   border-right: 5px solid #202020;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 3rem 0px;
 }
 
 .items_info{

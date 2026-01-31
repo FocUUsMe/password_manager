@@ -13,7 +13,7 @@
         {
             "id": 2,
             "title": "Chat GPT",
-            "icon": "/card_icons/chatgpt_icon.png",
+            "icon": "/card_icons/gpt_icon.png",
             "login": "",
             "password": "",
             "isLogged": "false"
@@ -29,7 +29,7 @@
         {
             "id": 4,
             "title": "Google Drive",
-            "icon": "/card_icons/googledrive_icon.png",
+            "icon": "/card_icons/google_icon.png",
             "login": "",
             "password": "",
             "isLogged": "false"
@@ -37,7 +37,7 @@
         {
             "id": 5,
             "title": "Instagram",
-            "icon": "/card_icons/instagram_icon.png",
+            "icon": "/card_icons/inst_icon.png",
             "login": "",
             "password": "",
             "isLogged": "false"

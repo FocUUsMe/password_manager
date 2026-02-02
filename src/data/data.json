@@ -6,109 +6,97 @@
             "id": 1,
             "title": "Adobe",
             "icon": "/card_icons/adobe_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "godot.designer@yandex.ru",
+            "password": "k9#Mx!qW2@pC",
+            "isLogged": "false"
         },
         {
             "id": 2,
             "title": "Chat GPT",
             "icon": "/card_icons/gpt_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "ai.halloween26@gmail.com",
+            "password": "V@r7$nL*eK8%",
+            "isLogged": "false"
         },
         {
             "id": 3,
             "title": "GitHub",
             "icon": "/card_icons/github_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "dev.stavropol@proton.me",
+            "password": "P3!s@hQ9&wZT",
+            "isLogged": "false"
         },
         {
             "id": 4,
             "title": "Google Drive",
             "icon": "/card_icons/google_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "react.nextjs26@gmail.com",
+            "password": "cR6%tF#mX1$nL",
+            "isLogged": "false"
         },
         {
             "id": 5,
             "title": "Instagram",
             "icon": "/card_icons/inst_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "pixel.shoegaze@yandex.ru",
+            "password": "jH8&kP$vW4#qM",
+            "isLogged": "false"
         },
         {
             "id": 6,
             "title": "Linked In",
             "icon": "/card_icons/linkedin_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "frontend.yessentuki@outlook.com",
+            "password": "B7!nY@rE5*cX9",
+            "isLogged": "false"
         },
         {
             "id": 7,
             "title": "NVidia",
             "icon": "/card_icons/nvidia_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "godot.gpu@proton.me",
+            "password": "mX4#qL9@vN2$pF",
+            "isLogged": "false"
         },
         {
             "id": 8,
             "title": "Outlook",
             "icon": "/card_icons/outlook_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "frontend.yessentuki@outlook.com",
+            "password": "T5$kM8&nP!cR7",
+            "isLogged": "false"
         },
         {
             "id": 9,
             "title": "PayPal",
             "icon": "/card_icons/paypal_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "shop.stavropol@gmail.com",
+            "password": "gW2@vP6#kL9!nY",
+            "isLogged": "false"
         },
         {
             "id": 10,
             "title": "Play Station",
             "icon": "/card_icons/playstation_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "indie.gamedev@yandex.ru",
+            "password": "qL3#mX7!nY@rE5",
+            "isLogged": "false"
         },
         {
             "id": 11,
             "title": "Steam",
             "icon": "/card_icons/steam_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "dev.stavropol@proton.me",
+            "password": "rE4@kP8#vN2$mX",
+            "isLogged": "false"
         },
         {
             "id": 12,
             "title": "X",
             "icon": "/card_icons/twitter_icon.png",
-            "login": "",
-            "password": "",
-            "isLogged": "false",
-            "isSelected": "false"
+            "login": "react.nextjs26@gmail.com",
+            "password": "L9!nY@qM3#vP6%",
+            "isLogged": "false"
         }
     ]
 }

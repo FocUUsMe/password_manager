@@ -35,7 +35,7 @@
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 5.5rem;
   padding: 3rem 0px;
 }
 
@@ -44,26 +44,110 @@
   height: 100svh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
 }
 
-.intro {
+.group_1{
+  height: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
-  gap: 24px;
+  gap: 50px;
+  padding: 50px;
+  position: relative;
+  cursor: default;
+
+    & p{
+      font-size: 1.5rem;
+      width: 100%;
+    }
+
+    & #login_group, #password_group{
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      position: relative;
+      align-items: flex-end;
+      
+
+        & button{
+          width: 40px;
+          height: 40px;
+          background: none;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          transition: all .1s ease;
+          border-radius: 10px;
+          position: absolute;
+          left: calc(100% - 320px);
+          border: 1px solid #1a1a1a;
+
+            &:active{
+              background-color: #1a1a1a;
+            }
+        }
+    }
+
+    & input{
+      width: 400px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background: none;
+      border-radius: 5px;
+      border: 1px solid #1a1a1a;
+      border: 1px solid #1a1a1a;
+      padding: 20px;
+      cursor: pointer;
+    }
+
+    & #info_title{
+      font-size: 3rem;
+      font-weight: 500;
+    }
 }
 
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
+.group_2{
+  height: 50%;
+  width: 100%;
+  cursor: default;
+  padding: 50px;
+
+    & h2{
+      font-size: 3rem;
+    }
+
+    & form{
+      width: 80%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      justify-content: space-evenly;
+
+        & #code{
+          font-size: 1.8rem;
+          letter-spacing: 1.5rem;
+          color: white;
+          width: 55%;
+          text-indent: 10%;
+          padding: 20px;
+          outline: none;
+          background: none;
+          border: 1px solid rgb(0, 81, 255);
+          border-radius: 10px;
+          cursor:pointer;
+        }
+
+        & .timer{
+          width: 100%;
+          font-size: 3rem;
+          color: rgb(0, 81, 255);
+        }
+    }
 }
 
 a.primary {
@@ -95,8 +179,13 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (max-width: 1080px) {
+  .main{
+    width: 100%;
+  }
+}
 
+@media (prefers-color-scheme: dark) {
   .page {
     --background: #000;
     --foreground: #000;
